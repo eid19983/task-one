@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.home{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: fit-content;
+   background-color: #fff;
+   width:98%;
+   margin:10px auto 0px ;
+   padding: 10px 0;
+}
+.home p{
+    margin: 20px;
+    
+}
+.nav{
+  display: flex;
+  width: 98%;
+  margin: 0 auto;
+  background-color: rgb(245, 181, 181);
+  color: #fff;
+  justify-content: space-between;
+}
+.nav ul{
+    list-style-type: none;
+    padding: 10px;
+
+}
+.left__links{
+display: flex;
+width:10%;
+justify-content: space-between;
+
+}
+
+
+.main{
+    margin:auto ;
+    width:98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .left{
+   width: 80%;
+
+}
+.main article{
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.main article div{
+    background-color: blue;
+    height: 70px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.main article h3{
+    margin-bottom: 10px;
+}
+.main article p{
+    margin-bottom: 10px;
+}
+.right__aside{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__div{
+      height: auto;
+      width: 90%;
+      background-color: #fff;
+      padding: 15px 10px;
+ 
+      margin-bottom: 5px;
+}
+.main__div h3{
+    margin-bottom: 10px;
+}
+.main__div div{
+    padding: 15px 20px;
+    background-color: blue;
+}
+.main__div div:nth-child(2){
+    margin-top: 15px;
+}
+.main__div p{
+    margin-top: 10px;
+}
+
+footer{
+    width:98%;
+    background-color: blue;
+    height: 50px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
